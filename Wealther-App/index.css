@@ -1,0 +1,99 @@
+body {
+    background-image: url("sunny_day.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#city_input {
+    opacity: 75%;
+    border: solid black 5px;
+    border-style: ridge;
+    border-radius: 40px 0;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 39%;
+    box-shadow: 10px 10px 30px;
+}
+
+#location {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+#date {
+    font-size: 30px;
+    text-align: center;
+}
+
+#temp {
+    text-align: center;
+    font-size: 200px;
+    text-shadow: rgb(0, 0, 0) 10px 20px 20px;
+}
+
+#current_weather {
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+#min_temp {
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+#max_temp {
+    font-size: 35px;
+    text-align: center;
+}
+
+.max {
+    font-size: 35px;
+    text-align: center;
+}
+
+.min {
+    font-size: 35px;
+    text-align: center;
+}
+
+#main_temp {
+    text-align: center;
+    font-size: 200px;
+    text-shadow: rgb(0, 0, 0) 10px 20px 20px;
+    vertical-align: text-top;
+}
+
+.temprature {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.search-btn {
+    font-size: x-large;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 0 40px;
+    margin-left: 20px;
+    box-shadow: 10px 20px 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-btn:hover {
+    background-color: rgb(28, 70, 70);
+}

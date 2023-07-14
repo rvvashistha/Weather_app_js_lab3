@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <input type="text" placeholder="Search for a city....." id="city_input">
+    <button class="search-btn" type="submit" id="submit">Search</button>
+    <br><br><br>
+    <div id="location"><span id="cityName"></span></div>
+    <div id="date">date and day</div>
+    <table class="temprature">
+        <td>
+            <div id="temp"></div>
+        </td>
+        <td><span id="main_temp"></span></td>
+    </table>
+    <table class="temprature">
+        <td>Temprature feels like : </td>
+        <td><span id="feels_like"></span></td>
+        <td><span id="feels_like2"></span></td>
+    </table>
+
+    <div id="current_weather"></div>
+
+    <table class="temprature">
+        <td>Min temprature: </td>
+        <td>
+            <div id="min_temp"></div>
+        </td>
+        <td><span id="min_temp2"></span></td>
+    </table>
+    <table class="temprature">
+        <td>Max temprature: </td>
+        <td>
+            <div id="max_temp"></div>
+        </td>
+        <td><span id="max_temp2"></span></td>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
